@@ -1,0 +1,90 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2rem 1rem;
+  background-image: url(images/bkg_stars.jpg);
+  background-size: 275%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+strong {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 150%;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 2px solid #007bff;
+  box-shadow: 2px 2px 20px black;
+}
+
+header {
+  text-align: center;
+  font-family: "Isometra", serif;
+  padding: 1rem;
+  border-bottom: 2px solid silver;
+}
+
+nav {
+  background-color: #007bff;
+  text-transform: uppercase;
+  border: 2px solid #007bff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: #6db4ff;
+  border-radius: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+main p {
+  font-size: 120%;
+}
+
+.rightCol {
+  padding: 0 2rem;
+}
+
+.picRight {
+  float: right;
+  box-shadow: 2px 2px 7px black;
+  border: 5px solid white;
+  margin: 0 0 1rem 1rem;
+}
+
+header h1 {
+  font-size: 350%;
+}
+
+header h2 {
+  font-size: 180%;
+}
+
+img {
+  max-width: 100%;
+}
