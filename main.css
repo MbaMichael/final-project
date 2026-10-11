@@ -54,9 +54,23 @@ nav a:hover {
   border-radius: 2rem;
 }
 
-main {
+.home {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+.professorList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+.centralText{
   margin: 20px;
   gap: 1rem;
   line-height: 2rem;
@@ -67,10 +81,12 @@ main p {
 }
 
 .rightCol {
-  padding: 0 2rem;
+  padding: 0 1rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-.picRight {
+.picture {
   float: right;
   box-shadow: 2px 2px 7px black;
   border: 5px solid white;
